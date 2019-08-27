@@ -1,15 +1,20 @@
 * {
     margin: 0 auto;
 }
+.wrapper {
+    background-image: linear-gradient(to bottom, rgb(242, 145, 220), rgb(194,129, 249),rgb(141,208,253),rgb(119,182,224),rgb(76,123,155),rgb(47,77,97),rgb(24,40,50));
+}
 .background {
     position: relative;
     width: 100%;
-    z-index: 1;
+    
+    height: 500px;
 }
 .hero {
     position: absolute;
 }
 .h1 {
     top: 0px;
-    z-index: 2;
+    
 }
+
