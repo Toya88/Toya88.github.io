@@ -2,7 +2,8 @@
     margin: 0 auto;
 }
 body {
-    background-image: linear-gradient(to bottom, rgb(242, 145, 220), rgb(194,129, 249),rgb(141,208,253),rgb(119,182,224),rgb(76,123,155),rgb(47,77,97),rgb(24,40,50));
+    background-image: linear-gradient(to bottom, #f291dc, #c281f9,#8dd0fd,#77b6e0,#4c7b9b,rgb(47,77,97),#182832);
+    font-family: 'Alice', serif;
 }
 
 .background {
@@ -13,18 +14,25 @@ body {
     margin-bottom: 100px;
 }
 .intro {
-    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 h1 {
     font-size: 53px;
+    font-family: 'Marko One', serif;
+    color: #474056;
+    text-transform: capitalize;
 }
 .first {
     position: absolute;
+    top: 0px;
     z-index: 7; 
 }
 .second {
     position: absolute;
-    top: 400px;
+    top: 411px;
     z-index: 8;
 }
 .me {
@@ -33,23 +41,8 @@ h1 {
     border-radius: 100%;
     z-index: 10;
 }
-/* .anime {
-    position: absolute;
-    top: 100px;
-    z-index: 9;
 
-    animation-name: anime;
-    animation-direction: normal;
-    animation-duration: 15s;
-    animation-timing-function: linear;
-    animation-iteration-count: 3;
-}
-@keyframes anime {
-    25% {left:200px; top:120px}
-    50% {left:500px; top:200px}
-    75% {left:700px; top:250px}
-    100% {left:1000px; top:170px}
-} */
+
 .cloud1 {
     position: absolute;
     top: 350px;
@@ -89,19 +82,107 @@ h1 {
 }
 nav {
     position: absolute;
+    z-index: 11;
     width: 100%;
-    text-decoration: none;
     top: 595px;
     height: 50px;
-    background-color: aqua;
+    background-color: #757083;
 }
-nav ul{
+nav ul {
+    position: sticky;
+    top: 0;
+}
+ ul {
     list-style: none;
     text-align: center;
     padding: 18px;
     margin-right: 10px;
 }
-nav li{
-    display: inline;
-    
+ li{
+    display: inline; 
+}
+ a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #F4FAFF;
+    padding: 10px;
+    line-height: 1.4px;
+    text-transform: capitalize;
+}
+
+ a:hover {
+    color:#c281f9;
+}
+p {
+    font-size: 25px;
+    color: #474056;
+
+}
+label {
+    font-size: 25px;
+}
+h2 {
+    font-size: 40px;
+    font-family: 'Alice', serif;
+    color: #474056;
+    text-align: center;
+    padding: 10px;
+    text-transform: capitalize;
+}
+.hero {
+    text-align: center;
+    color: #474056;
+    margin: 50px;
+    padding: 50px;
+}
+.hero a {
+    text-decoration: none;
+    color:  #F4FAFF;
+}
+
+.project {
+    padding: 20px;
+}
+.butn {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #474056;
+    color:  #F4FAFF;
+}
+.butn a {
+    text-decoration: none;
+}
+.button {
+    text-align: center;
+    margin-top: 15px;
+}
+h3 {
+    font-size: 40px;
+    font-family: 'Alice', serif;
+    color: #F4FAFF;
+    text-align: center;
+    padding: 10px;
+    text-transform: capitalize;
+}
+.achivements {
+    text-align: center;
+}
+.contact  {
+    font-size: 15px;
+    text-align: center;
+    color: #F4FAFF;
+}
+.follow ul{
+
+}
+/* responsive */
+@media only screen and (max-width: 600px)  {
+    h1 {
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 600px)  {
+    cloud {
+        visibility: hidden;
+    }
 }
