@@ -172,8 +172,8 @@ h3 {
     text-align: center;
     color: #F4FAFF;
 }
-.follow ul{
-
+footer p{
+    color: #F4FAFF;
 }
 /* responsive */
 @media only screen and (max-width: 600px)  {
