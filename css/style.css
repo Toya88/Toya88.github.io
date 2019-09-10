@@ -11,7 +11,7 @@ body {
     position: relative;
     padding-top: 50px;
     padding-bottom: 500px;
-    margin-bottom: 100px;
+    /* margin-bottom: 50px; */
 }
 .intro {
     display: flex;
@@ -45,7 +45,7 @@ h1 {
 
 .cloud1 {
     position: absolute;
-    top: 350px;
+    top: 275px;
     right: 0px;
     z-index: 1;
 }
@@ -83,7 +83,7 @@ h1 {
 nav {
     position: absolute;
     z-index: 11;
-    /* width: 100%; */
+    width: 100%;
     top: 595px;
     height: 50px;
     background-color: #757083;
@@ -147,15 +147,20 @@ h2 {
 .butn {
     padding: 10px;
     border-radius: 5px;
-    background-color: #474056;
+    background-color: #757083;
     color:  #F4FAFF;
 }
 .butn a {
     text-decoration: none;
 }
+.butn a:hover {
+    color:#c281f9;
+    text-decoration: none;
+}
 .button {
     text-align: center;
     margin-top: 15px;
+    
 }
 h3 {
     font-size: 40px;
@@ -177,7 +182,7 @@ footer p{
     color: #F4FAFF;
 }
 /* responsive */
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 900px) {
     .cloud { display:none;
 
     }
@@ -188,12 +193,28 @@ footer p{
     }
 }
 @media only screen and (max-width: 600px)  {
-    
+    nav { height: 80px;
         
     }
 }
 @media only screen and (max-width: 600px) {
-    {
-        
+   h2 {
+        font-size: 20px;
     }
 }
+@media only screen and (max-width: 600px) {
+    p {
+         font-size: 15px;
+     }
+ }
+ @media only screen and (max-width: 1024px) {
+    .cloud2 {
+         display:none;
+     }
+ }
+ @media only screen and (max-width: 1024px) {
+    .cloud5 {
+         top:150px;
+         right: 0px;
+     }
+ }
