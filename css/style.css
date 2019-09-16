@@ -45,10 +45,6 @@ a {
    text-transform: capitalize;
 }
 
-a:hover {
-   color:#c281f9;
-   text-decoration: none;
-}
 a:visited {
     color:#8dd0fd;
     text-decoration: none; 
@@ -56,6 +52,10 @@ a:visited {
 a:active {
     color: #182832;
     text-decoration: none;
+}
+a:hover {
+   color:#c281f9;
+   text-decoration: none;
 }
 .intro {
     display: flex;
