@@ -55,6 +55,7 @@ a:visited {
 }
 a:active {
     color: #182832;
+    text-decoration: none;
 }
 .intro {
     display: flex;
