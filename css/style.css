@@ -49,6 +49,13 @@ a:hover {
    color:#c281f9;
    text-decoration: none;
 }
+a:visited {
+    color:#8dd0fd;
+    text-decoration: none; 
+}
+a:active {
+    color: #182832;
+}
 .intro {
     display: flex;
     align-items: center;
